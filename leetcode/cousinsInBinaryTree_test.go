@@ -10,7 +10,7 @@ func TestIsCousinsCase1(t *testing.T) {
 		},
 		&TreeNode{3, nil, nil},
 	}
-	runTest(t, tree, 2, 3, false)
+	runTest(t, tree, 4, 3, false)
 }
 
 func TestIsCousinsCase2(t *testing.T) {
@@ -23,7 +23,7 @@ func TestIsCousinsCase2(t *testing.T) {
 			3, nil, &TreeNode{5, nil, nil},
 		},
 	}
-	runTest(t, tree, 2, 3, true)
+	runTest(t, tree, 5, 4, true)
 }
 
 func TestIsCousinsCase3(t *testing.T) {
